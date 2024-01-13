@@ -1,0 +1,116 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+body {
+  font-family: Merriweather, serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* p {
+  color: purple;
+}
+
+.tag {
+  color: orange;
+}
+
+#featured {
+  color: gold;
+}
+
+input[type="number"] {
+  background-color: gold;
+}
+
+a[href*="wiki"] {
+  color: cyan;
+}
+
+a[href^="#"] {
+  color: darkviolet;
+}
+
+.score,
+#featured,
+.tag {
+  color: white;
+  background-color: orangered;
+} */
+
+/* #cast span {
+  color: grey;
+}
+
+ol > li {
+  border: 1px solid red;
+} */
+
+/* h2 ~ p {
+  color: deeppink;
+} */
+h2 + p {
+  color: deeppink;
+}
+
+h1 ~ p {
+    color: brown;
+}
+
+button:hover {
+    color: green;
+    background-color: orange;
+}
+
+input:disabled {
+    background-color: grey;
+}
+
+a:visited {
+    color: coral;
+}
+
+li:first-of-type {
+    border: 1px solid magenta;
+}
+
+li:nth-of-type(2n){  
+    color: blueviolet;
+}
+
+/* 2n the n means every second option down the row */
+
+button:active {
+    background-color: pink;
+}
+
+input:focus {
+    border: 8px solid purple;
+
+}
+
+p::first-line {
+    color: blue;
+    text-transform: uppercase;
+}
+
+p:first-of-type::first-letter{
+    color: lawngreen;
+}
+
+input::placeholder {
+    font-weight: 100;
+    color: grey;
+}
+
+p::selection {
+    color: gold;
+}

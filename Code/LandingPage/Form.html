@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Form Controls</h1> <!--Forms have a control and where to go-->
+    <form action="http://google.com"> <!--This is where your data will be sent this is an end point I would create on the back end-->
+        <input type="text"> 
+        <button>Submit</button>
+    </form>
+
+<!--Form with name-->
+    <h1>Form 2 with Name attributes</h1>
+    <form action="http://google.com/search">
+        <input type="text" name="q" placeholder="search"> <!--Name field is very important-->
+        <button>Submit</button>
+    </form>
+
+<h2>Accessible forms</h2>
+    <!--This is the most accessible VVV BELOW-->
+    <form action="">
+        <label for="firstname">First Name</label>
+        <input type="text" name="firstname" id="firstname" placeholder="first name">
+
+        <label for="lastname">Last Name</label> <!--label needs to match the id of the input to connect accessability**-->
+        <input type="text" name="lastname" id="lastname" placeholder="last name"> 
+        <button>submit</button>
+    </form> 
+
+    <!-- Labeling is huge for accesability - the label and connecting them to the actual input field is the super super important -->
+    <!--each label and id are unique!!!-->
+
+<h2>New Input type = password</h2>
+<form action="">
+
+    <label for="password"> Password</label>
+<input type="password" name="password" id="password" placeholder="password">
+<button>submit</button>
+
+</form>
+
+
+<!--required tag in this form is important-->
+<h2>New Input Number</h2>
+<form action="">
+<label for="Number"> Numbers</label>
+<input type="number" name="number" id="Number" placeholder="number" required>
+<button>submit</button>
+</form>
+
+
+<h2>Email</h2>
+<form action="">
+<label for="Emailgoeshere"> Email Here </label>
+<input type="email" name="email" id="Emailgoeshere" placeholder="email">
+<button>submit</button>
+<input type="color">
+</form>
+
+<h2>Other Form Controls</h2>
+<form action="">
+<textarea name="testing" id="test" cols="30" rows="10"></textarea>
+</form>
+
+
+<h2>Range</h2>
+<form action="">
+<input type="range" min="0" max="10"name="rangetest" id="range" step="2">
+<button>Range</button>
+</form>
+
+
+<form action="">
+    <label for="agree_tos"> I agree to TOS </label>
+    <input type="checkbox" name="tos" id="agree_tos">
+  <button>submit checkbox</button>
+</form>
+<!-- Look at MDN webdocs for all inputs -->
+
+<!--This is a selector-->
+
+<H1>Selectors</H1>
+
+
+<form action="">
+    <label for="shirtsize">Select your shirtsize</label>
+    <select name="shirtsize" id="">
+        <option value="s">Small</option>
+        <option value="m">Medium</option>
+        <option value="l">Large</option>
+    </select>
+    <button>submit</button>
+</form>
+<!--Value is SUPER important here-->
+
+<h2> Radio Button </h2>
+<form action="">
+<label for="phone">Call Me</label>
+<input type="radio" name="contact" id="phone" value="phone">
+<label for="email">Email Me</label>
+<input type="radio" name="contact" id="email" value="email">
+<!--making the name the same in the input field "contact" makes them part of a radio button set; select one deselects another-->
+<button>Contact</button>
+</form>
+
+
+
+
+
+</body>
+</html>

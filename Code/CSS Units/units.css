@@ -1,0 +1,32 @@
+.container {
+    border:  1px solid black;
+    height: 50vh;
+    width: 50vw;
+}
+
+.box {
+    background-color: olive;
+    width: 50%;
+    height: 50%;
+}
+
+p {
+    font-size: 2rem;
+    line-height: 100%;
+}
+
+h1 {
+   font-size: 6rem; 
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+.cont h1{
+   font-size: 1.5em;
+}
+
+.cont h2 {
+    font-size: 3em;
+}

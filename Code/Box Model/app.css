@@ -1,0 +1,81 @@
+ /* h1 {
+    border: 1px solid salmon; 
+     margin: 30px; 
+    margin: 10px 20px 40px 80px;  
+     margins go clockwise OR if you only do 2 its top and bottom margin: 8px 16px;
+} 
+
+#link {
+    font-size: 30px;
+    border: 1px solid red;
+    padding: 16px 8px 16px 8px;
+    padding: 8px 16px;
+} 
+
+
+a {
+    border: 1px solid olive;
+}  */
+
+/* div {
+    background-color: purple;
+    margin: 30px;
+    height: 200px;
+    width: 200px;
+    border: 5px solid cyan;
+    padding: 10px;
+}
+
+#alternate {
+    box-sizing: border-box;
+} */
+
+
+/* h1{
+    border: 10px solid teal;
+    display: none;
+}
+
+
+#word {
+    border: 10px solid teal;
+    height: 50px;
+    width: 100px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.box {
+    border: 1px solid red;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+
+h2 {
+    margin: -20px;
+
+
+} */
+
+#container {
+    border: 1px solid purple;
+    background-color: lavenderblush;
+    height: 400px;
+    width: 400px;
+}
+
+#container h4{
+    text-align: center;
+    border: 1px solid black;
+    width: 150px;
+    margin: 0 auto;
+}
+
+p {
+    border: 1px solid seagreen;
+    margin: 20px 0 50px 0;
+    width: 200px;
+    display: inline-block;
+    }
+

@@ -1,0 +1,12 @@
+p 
+{color: olive;}
+
+.featured {color: orangered;}
+
+#special {
+    color: megenta;
+}
+
+p:nth-of-type(2) {
+    color: blueviolet;
+}

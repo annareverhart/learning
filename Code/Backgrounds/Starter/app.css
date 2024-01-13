@@ -1,0 +1,10 @@
+.box {
+    border: 20px dashed palevioletred;
+    height: 400px;
+    width: 400px;
+    padding: 30px;
+    background-image: url("images/woman.jpg");
+    background-size: cover;
+    background-position: center;
+    background-clip: content-box;
+}
