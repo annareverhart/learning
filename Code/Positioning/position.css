@@ -21,18 +21,26 @@
     height: 300px;
     width: 300px;
     display: inline-block;
+    position: relative;
 }
 
-.special {
+.box span {
+color: white;
+background-color: orange;
+position: absolute;
+right: 0;
+}
+
+/* .special {
     background-color: orange;
-    /* position: relative;
+    position: relative;
     left: -50px;
-    top: -50px; */
+    top: -50px;
     position: absolute;
     top: 50px;
     left: 50px; 
-    /* this is from the top of the document */
+    this is from the top of the document
 
 
     
-}
+} */
