@@ -1,6 +1,14 @@
 .box {
   border: 2px solid black;
-  height: 400px;
-  width: 400px;
-  background-image: linear-gradient(red, blue 30%);
+  height: 700px;
+  width: 700px;
+  /* background: url("images/peacock.png") no-repeat center/200%, url("images/sunset.jpg"); */
+  background: url("images/people.jpg");
+  background-size: cover;
+  filter: blur(5px);
+}
+
+img {
+  width: 500px;
+  filter: grayscale() contrast(50%);
 }
